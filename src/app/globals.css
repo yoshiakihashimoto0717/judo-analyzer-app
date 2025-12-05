@@ -31,7 +31,7 @@ body {
   box-sizing: border-box;
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: 'Terminus-Custom', monospace; /* カスタムフォントを適用 */
+  font-family: 'Terminus-Custom', monospace; /* ★修正箇所: カスタムフォントを適用 */
   line-height: 1.6;
 }
 
