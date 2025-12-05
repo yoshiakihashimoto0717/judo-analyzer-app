@@ -31,7 +31,7 @@ body {
   box-sizing: border-box;
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: 'Terminus-Custom', monospace; /* ★修正箇所: カスタムフォントを適用 */
+  font-family: 'Terminus-Custom', monospace; /* カスタムフォントを適用 */
   line-height: 1.6;
 }
 
@@ -79,7 +79,7 @@ a:hover {
 
 .btn-primary {
   background-color: var(--color-primary);
-  color: var(--color-background); /* ボタンの文字色は背景色に合わせて濃く */
+  color: var(--color-background); 
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -90,5 +90,5 @@ a:hover {
 }
 
 .btn-primary:hover {
-  background-color: #00cc55; /* 少し濃いグリーン */
+  background-color: #00cc55; 
 }
